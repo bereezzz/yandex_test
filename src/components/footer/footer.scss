@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  .footer__FIO {
+    color: var(--Secondary, #2429af);
+
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 25.2px */
+    letter-spacing: -0.63px;
+  }
+  .footer_contacts {
+    display: flex;
+    gap: 32px;
+    .contact {
+      color: var(--Main-Black, #181717);
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 120%; /* 25.2px */
+      letter-spacing: -0.63px;
+      cursor: pointer;
+    }
+  }
+}

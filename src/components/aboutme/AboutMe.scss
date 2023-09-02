@@ -1,0 +1,47 @@
+.aboutMe {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+  margin-bottom: 128px;
+  .aboutMe__text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 65%;
+    .aboutMe__text--header {
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 97.2%; /* 58.32px */
+      letter-spacing: -1.8px;
+    }
+    .aboutMe__text--main {
+      color: var(--Main-Gray, #606060);
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 117%; /* 37.44px */
+      letter-spacing: -0.96px;
+    }
+  }
+  .aboutMe__img {
+    width: 400px;
+    height: auto;
+  }
+}
+@media (min-width: 1701px) {
+  .aboutMe {
+    gap: 124px;
+    .aboutMe__text {
+      .aboutMe__text--header {
+        font-size: 60px;
+      }
+      .aboutMe__text--main {
+        font-size: 40px;
+      }
+    }
+    .aboutMe__img {
+      width: 500px;
+    }
+  }
+}

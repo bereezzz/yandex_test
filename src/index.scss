@@ -1,0 +1,19 @@
+// styles.scss
+
+// Импортируем шрифт Montserrat
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+// Задаем стили для элементов, использующих Montserrat
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.main{
+    padding: 102px 160px 70px 160px;
+    width: 100vw;
+
+}
