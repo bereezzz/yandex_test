@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ava from "../../imgs/ava2.jpg"
 import "./AboutMe.scss"
 export default function AboutMe() {
     return (
@@ -15,7 +15,7 @@ export default function AboutMe() {
                  ⏤ в настоящее время работаю в лаборатории бизнес аналитики и ищу новые вызовы!</div>
             </div>
 
-            <img src='./ava2.jpg' className='aboutMe__img'></img>
+            <img src={ava} className='aboutMe__img'></img>
 
 
         </div>

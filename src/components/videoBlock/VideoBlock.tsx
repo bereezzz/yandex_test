@@ -1,6 +1,6 @@
 import React from 'react';
 import "./videoBlock.scss"
-
+import video from "../../imgs/gotovo.mp4"
 export default function VideoBlock() {
     return (
         <>
@@ -21,7 +21,7 @@ export default function VideoBlock() {
                           значение, каждый элемент имеет свою роль.</p>
                 </div>
                 <video width="80%" height="80%" controls style={{ paddingBottom: "128px" }}>
-                    <source src="./gotovo.mp4" type="video/mp4" />
+                    <source src={video} type="video/mp4" />
                     Ваш браузер не поддерживает видео в формате MOV.
                 </video>
 
