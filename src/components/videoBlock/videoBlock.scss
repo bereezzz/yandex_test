@@ -1,0 +1,32 @@
+.videoBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .videoBlock__header {
+    color: var(--Main-Black, #181717);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 121.5%; /* 21.87px */
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+  }
+  .videoBlock__text {
+    color: var(--Main-Gray, #606060);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121.5%; /* 17.01px */
+    letter-spacing: -0.42px;
+    margin-bottom: 60px;
+  }
+  .videoBlock__subtitle {
+    color: var(--Main-Black, #181717);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 121.5%; /* 21.87px */
+    letter-spacing: -0.54px;
+  }
+}

@@ -10,7 +10,8 @@ export default function Header() {
             <li><Link to="section2" smooth={true} duration={1000}>Школа</Link></li>
             <li><Link to="section3" smooth={true} duration={1000}>Универ</Link></li>
             <li><Link to="section4" smooth={true} duration={1000}>Работа</Link></li>
-            <li><Link to="section5" smooth={true} duration={1000}>Контакты</Link></li>
+            <li><Link to="section5" smooth={true} duration={1000}>Полезность</Link></li>
+            <li><Link to="section6" smooth={true} duration={1000}>Контакты</Link></li>
         </ul>
 
     </nav>

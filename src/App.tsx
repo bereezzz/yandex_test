@@ -4,6 +4,7 @@ import AboutMe from './components/aboutme/AboutMe';
 import Skills from './components/skills/Skills';
 import { InfoBlock } from './components/infoBlock/InfoBlock';
 import Footer from './components/footer/Footer';
+import VideoBlock from './components/videoBlock/VideoBlock';
 import "./index.scss"
 import { Element } from "react-scroll";
 const json = [{
@@ -24,7 +25,7 @@ const json = [{
   header: "03 / Работа",
   subTitle: "Дни Труда и Достижений: Профессиональный Рост и Успехи в Карьере",
   main1: "Во время моей карьеры на рабочем месте, я уделял особое внимание своей профессиональной деятельности и развитию. Мои трудолюбие и стремление к достижению лучших результатов были настоящей основой моего успеха. На работе я старался быть активным участником команды, предоставляя свои навыки и знания в различных сферах. ",
-  main2: "Кроме того, я постоянно обучался и совершенствовал свои навыки, чтобы быть в курсе последних тенденций и технологий в своей области. Это помогло мне не только удерживать высокий профессиональный статус, но и продвигаться вперед по карьерной лестнице.",
+  main2: "Программирование стало моей страстью в мире фронтенда, когда я узнал о бесконечных возможностях JavaScript для создания интерактивных веб-приложений. Работа с библиотеками и фреймворками, такими как React, позволила мне строить сложные и креативные пользовательские интерфейсы. Эта область объединяет техническое искусство с влиянием на пользователей, что делает ее захватывающей и вдохновляющей.",
   srcImg: "work.png"
 }]
 function App() {
@@ -41,12 +42,17 @@ function App() {
 
       {json.map((item, index) => {
         return (
-          <Element key={index}  name={`section${index + 2}`} >
+          <Element key={index} name={`section${index + 2}`} >
             <InfoBlock header={item.header} subTitle={item.subTitle} main1={item.main1} main2={item.main2} srcImg={item.srcImg}></InfoBlock>
           </Element>)
       })}
-      <Element name='section5' 
+      <Element name='section5'>
+      <VideoBlock></VideoBlock>
+      </Element>
+    
+      <Element name='section6'
       >
+        
         <Footer></Footer>
       </Element>
 
